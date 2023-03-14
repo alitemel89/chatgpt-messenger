@@ -6,7 +6,11 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'sidebar_pattern': "url('../public/rainbow-vortex.svg')"
+      }
+    },
   },
   plugins: [],
 }

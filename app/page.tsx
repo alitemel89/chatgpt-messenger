@@ -32,7 +32,10 @@ function HomePage() {
           </div>
 
           <div className="space-y-2">
-            <p className="infoText">"The dialogue format makes it possible for ChatGPT to answer followup questions."</p>
+            <p className="infoText">
+              "The dialogue format makes it possible for ChatGPT to answer
+              followup questions."
+            </p>
             <p className="infoText">
               "Messages are stored in Firebase's firestore"
             </p>
@@ -47,11 +50,16 @@ function HomePage() {
           </div>
 
           <div className="space-y-2">
-            <p className="infoText">"We've trained a model called ChatGPT which interacts in a conversational way."</p>
+            <p className="infoText">
+              "We've trained a model called ChatGPT which interacts in a
+              conversational way."
+            </p>
             <p className="infoText">
               "Hot Toast notifications within ChatGPT is thinking!"
             </p>
-            <p className="infoText">"May occasionally generate incorrect information."</p>
+            <p className="infoText">
+              "May occasionally generate incorrect information."
+            </p>
           </div>
         </div>
       </div>
