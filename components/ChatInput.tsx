@@ -24,6 +24,7 @@ function ChatInput({ chatId }: Props) {
     if (!prompt) return;
 
     const input = prompt.trim();
+    setPrompt("");
 
     const message: Message = {
       text: input,
@@ -66,8 +67,6 @@ function ChatInput({ chatId }: Props) {
         id: notification,
       })
     })
-
-    setPrompt("")
   };
 
   return (
