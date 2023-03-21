@@ -1,14 +1,19 @@
+"use client"
 import React from "react";
 import {
   BoltIcon,
   ExclamationTriangleIcon,
   SunIcon,
 } from "@heroicons/react/24/outline";
+import NewChat from "../components/NewChat";
 
 function HomePage() {
   return (
     <div className="flex flex-col items-center justify-center h-screen text-white">
       <h1 className="text-5xl font-bold mb-20">ChatGpt</h1>
+      <div className="mb-8">
+      <NewChat />
+      </div>
       <div className="flex space-x-2 text-center mx-4">
         <div>
           <div className="flex flex-col items-center justify-center mb-5">

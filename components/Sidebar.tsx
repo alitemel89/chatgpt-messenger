@@ -20,7 +20,7 @@ function Sidebar() {
 
   
   return (
-    <div className="p-2 flex flex-col h-screen bg-sidebar_pattern bg-cover">
+    <div className="hidden p-2 md:flex flex-col h-screen bg-sidebar_pattern bg-cover">
       <div className="flex-1">
         <div>
           {/* New Chat */}
